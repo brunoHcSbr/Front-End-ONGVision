@@ -1,0 +1,35 @@
+.divFormatting H1{
+    padding: 30px;
+    font-size: 60px;
+    font-style: bold;
+    font-family: 'Roboto Slab', serif;
+}
+
+.divFormatting H3{
+    font-size: 20px;
+    font-style: bold;
+    font-family: 'Roboto Slab', serif;
+}
+.divFormatting p{
+    display: flex;
+    width: 600px;
+}
+
+.divFormatting{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.FormattingAndButton{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backgroundSobre{
+    display: flex;
+}

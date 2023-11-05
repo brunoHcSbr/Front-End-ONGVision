@@ -1,0 +1,16 @@
+.botaoBase {
+  color: white;
+    align-items: center;
+  background-color: #2d2d2d;
+  display: inline-flex;
+  gap: 10px;
+  justify-content: center;
+  padding: 15px 40px;
+  position: relative;
+  border-radius: 20px;
+}
+
+.botaoBase:hover{
+  background-color: blueviolet;
+}
+
