@@ -16,7 +16,7 @@ export default function Home() {
             Faça sua doação!</p>
           </div>
         <div className={styles.buttonHomeDiv}>
-          <a href="produtos">
+          <a href="perfil">
           <button className={styles.buttonHome}>Meu perfil</button>
           </a>
         </div>
