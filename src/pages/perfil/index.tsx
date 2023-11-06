@@ -4,7 +4,7 @@ export default function Perfil(){
     return(
         <>
             <Layout>
-
+            
             </Layout>
         </>
     )
