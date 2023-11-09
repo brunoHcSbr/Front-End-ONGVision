@@ -1,0 +1,410 @@
+.body {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Define a altura da página para ocupar toda a janela */
+  margin: 0;
+  background-color: #f5f7f9;
+  border-radius: 6px;
+}
+
+ .profileInfo {
+  height: 561px;
+  left: 30px;
+  position: relative;
+  width: 900px;
+}
+
+ .form {
+  height: 578px;
+  left: 0;
+  position: absolute;
+  top: 70px;
+  width: 900px;
+}
+
+ .birthdateLocation {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 282px;
+  width: 900px;
+}
+
+ .div {
+  height: 72px;
+  left: 460px;
+  position: absolute;
+  top: 0;
+  width: 440px;
+}
+
+ .input {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  height: 46px;
+  left: 2px;
+  position: absolute;
+  top: 26px;
+  width: 436px;
+}
+
+ .textWrapper {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  height: 20px;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: absolute;
+  top: 12px;
+  white-space: nowrap;
+}
+
+ .textWrapper2 {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 10px;
+  font-weight: 500;
+  height: 18px;
+  left: 2px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  position: absolute;
+  top: -2px;
+  white-space: nowrap;
+}
+
+ .div2 {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 440px;
+}
+
+ .input2 {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 10px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+}
+
+ .divWrapper {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 12.75px 109px 13.25px 13px;
+  position: relative;
+}
+
+ .textWrapper3 {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+ .input3 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 12.75px 111px 13.25px 13px;
+  position: relative;
+}
+
+ .textWrapper4 {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-right: -2px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+ .input4 {
+  align-items: flex-start;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  padding: 12.75px 91px 13.25px 13px;
+  position: relative;
+}
+
+ .textWrapper5 {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 500;
+  height: 18px;
+  left: 2px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  position: absolute;
+  top: -2px;
+  white-space: nowrap;
+}
+
+ .usernameEmail {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 170px;
+  width: 900px;
+}
+
+ .email {
+  align-items: flex-start;
+  display: inline-flex;
+  flex-direction: column;
+  left: 460px;
+  position: absolute;
+  top: 0;
+}
+
+ .div3 {
+  height: 26px;
+  position: relative;
+  width: 440px;
+}
+
+ .textWrapper6 {
+  color: #df1c2f;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 400;
+  height: 12px;
+  left: 367px;
+  letter-spacing: 0;
+  line-height: 12px;
+  position: absolute;
+  top: 4px;
+  white-space: nowrap;
+}
+
+ .input5 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 20px;
+  margin-top: -1px;
+  padding: 12.75px 199px 13.25px 13px;
+  position: relative;
+  white-space: nowrap;
+  width: 440px;
+}
+
+ .input6 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  height: 46px;
+  left: 4px;
+  position: absolute;
+  top: 26px;
+  width: 433px;
+}
+
+ .firstLastName {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 58px;
+  width: 900px;
+}
+
+ .input7 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  height: 46px;
+  left: 1px;
+  position: absolute;
+  top: 26px;
+  width: 438px;
+}
+
+ .input8 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+  width: 439px;
+}
+
+ .obrigatorio {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 11px;
+  font-weight: 500;
+  height: 14px;
+  left: 0;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+  width: 116px;
+}
+
+ .button {
+  all: unset;
+  align-items: flex-start;
+  background-color: #8300a4;
+  border-radius: 24px;
+  box-sizing: border-box;
+  display: inline-flex;
+  left: 381px;
+  padding: 12.5px 39.91px 11.5px 41.09px;
+  position: absolute;
+  top: 394px;
+}
+
+ .salvar {
+  color: #ffffff;
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+ .changePassword {
+  border-color: #d2d5d9;
+  border-top-style: solid;
+  border-top-width: 1px;
+  height: 481px;
+  left: 1px;
+  position: absolute;
+  top: 492px;
+  width: 900px;
+}
+
+ .form2 {
+  height: 370px;
+  left: 0;
+  position: absolute;
+  top: 71px;
+  width: 900px;
+}
+
+ .salvarWrapper {
+  all: unset;
+  align-items: flex-start;
+  background-color: #8300a4;
+  border-radius: 24px;
+  box-sizing: border-box;
+  display: inline-flex;
+  left: 381px;
+  padding: 12.5px 39.91px 11.5px 41.09px;
+  position: absolute;
+  top: 264px;
+}
+
+ .newPassword {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 152px;
+  width: 900px;
+}
+
+ .input9 {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #e4e7eb;
+  border-radius: 4px;
+  height: 46px;
+  left: 0;
+  position: absolute;
+  top: 26px;
+  width: 440px;
+}
+
+ .currentPassword {
+  height: 72px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 440px;
+}
+
+ .textWrapper7 {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 23px;
+  font-weight: 400;
+  height: 28px;
+  left: 348px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: 203px;
+}
+
+ .textWrapper8 {
+  color: #222529;
+  font-family: "Inter", Helvetica;
+  font-size: 23px;
+  font-weight: 400;
+  height: 28px;
+  left: 389px;
+  letter-spacing: 0;
+  line-height: 30px;
+  position: absolute;
+  text-align: center;
+  top: 40px;
+  white-space: nowrap;
+  width: 122px;
+}
