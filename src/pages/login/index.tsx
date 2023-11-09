@@ -4,15 +4,7 @@ import styles from "./Login.module.css"
  
  
 export default function Login(){
-   /* const container = () => {
-        document.getElementById('container');
-      }    
-      const signUpButton = () => {
-         container.classList.add('right-panel-active');
-      };  
-      const signInButton = () => {
-         container.classList.remove('right-panel-active');
-      };*/
+   
     return(
         <>
         <div className={styles.bodyBackground}>
