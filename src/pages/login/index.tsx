@@ -4,11 +4,15 @@ import styles from "./Login.module.css"
  
  
 export default function Login(){
+
+    const teste = styles.toggleHover
+    //
    
     return(
         <>
         <div className={styles.bodyBackground}>
-            <div className={styles.container}>
+            <div className={styles.container} id={styles.container}>
+                <div className={styles.loginCadastro}>
                 <div className={styles.formContainerSignUp}>
                     <form>
                         <h1>Criar Conta</h1>
@@ -33,6 +37,7 @@ export default function Login(){
                         <Input type="password" placeholder="Senha"></Input>
                         <ButtonBase label="Login"></ButtonBase>
                     </form>
+                </div>
                 </div>
                 <div className={styles.toggleContainer}>
                     <div className={styles.toggle}>
