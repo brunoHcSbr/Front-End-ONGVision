@@ -37,6 +37,7 @@
   position: absolute;
   top: 0;
   width: 440px;
+  padding-top: 100px;
 }
 
  .input {
@@ -107,6 +108,7 @@
   flex-grow: 1;
   padding: 12.75px 109px 13.25px 13px;
   position: relative;
+  width: 30px;
 }
 
  .textWrapper3 {
@@ -119,7 +121,7 @@
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: 80px;
 }
 
  .input3 {
@@ -133,6 +135,7 @@
   flex-grow: 1;
   padding: 12.75px 111px 13.25px 13px;
   position: relative;
+  width: 30px;
 }
 
  .textWrapper4 {
@@ -146,7 +149,7 @@
   margin-top: -1px;
   position: relative;
   white-space: nowrap;
-  width: fit-content;
+  width: 80px;
 }
 
  .input4 {
@@ -160,6 +163,7 @@
   flex-grow: 1;
   padding: 12.75px 91px 13.25px 13px;
   position: relative;
+  width: 30px;
 }
 
  .textWrapper5 {
@@ -367,6 +371,7 @@
   position: absolute;
   top: 26px;
   width: 440px;
+  text-align: center;
 }
 
  .currentPassword {
