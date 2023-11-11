@@ -228,7 +228,7 @@
     transform: translateX(0);
 }
  
-.toggleContainer:hover{
+.toggleContainer:Hover{
     border-radius: 0 100px 100px 0;
     transform: translateX(-400px);
 

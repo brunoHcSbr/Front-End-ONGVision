@@ -4,11 +4,22 @@ import styles from "./Login.module.css"
  
  
 export default function Login(){
+    function BackgroundToggle(){
+
+        return backgroundToggle = styles.toggleContainerHover
+ 
+     }
+
+    let backgroundToggle = styles.toggleContainer
+    
+
+    
 
     const teste = styles.toggleHover
-    //
+    
    
     return(
+        
         <>
         <div className={styles.bodyBackground}>
             <div className={styles.container} id={styles.container}>
@@ -39,7 +50,7 @@ export default function Login(){
                     </form>
                 </div>
                 </div>
-                <div className={styles.toggleContainer}>
+                <div  className={backgroundToggle}>
                     <div className={styles.toggle}>
                          <div className={styles.PaineltoggleLeft}>
                              <h1>Welcome Back!</h1>
@@ -49,7 +60,7 @@ export default function Login(){
                 <div className={styles.PaineltoggleRight}>
                     <h1>Ola! é novo no nosso site?</h1>
                     <p>Registre-se clicando no botão abaixo</p>
-                    <button  className={styles.hiddenCadastro}>Sign Up</button>
+                    <button onClick={BackgroundToggle} className={styles.hiddenCadastro}>Sign Up</button>
                 </div>
             </div>
         </div>

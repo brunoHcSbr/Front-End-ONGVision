@@ -19,7 +19,7 @@ interface Props {
 }
 
 const Links = [
-    {href: '/', texto: 'Home'},
+    {href: '/home', texto: 'Home'},
     {href: '/perfil', texto: 'Ongs'},
     {href: '/sobre', texto: 'Sobre'}
 ]
