@@ -228,11 +228,11 @@
     transform: translateX(0);
 }
  
-.toggleContainer:Hover{
-    border-radius: 0 100px 100px 0;
-    transform: translateX(-400px);
 
-}
+    
+   
+
+
 
 .toggleHover{
     background: linear-gradient(to right, #5c6bc0, rgb(154, 0, 168));
@@ -240,4 +240,9 @@
 
 .container.active .PaineltoggleRight{
     transform: translateX(200%);
+}
+
+.toggle:hover{
+    height: 100%;
+    width: 205%;
 }

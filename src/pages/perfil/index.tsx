@@ -1,4 +1,5 @@
 
+import LogoImage from "../../components/LogoImage"
 import Topo from "../../components/Topo"
 import styles from "../../pages/perfil/Perfil.module.css"
 
@@ -7,7 +8,10 @@ export default function Perfil(){
      
         <>
         <Topo></Topo>
-            <div className={styles.body}>
+
+        
+            <div className={styles.bodyBackground}>
+              
       <div className={styles.profileInfo}>
         <div className={styles.form}>
           <div className={styles.birthdateLocation}>
@@ -15,13 +19,13 @@ export default function Perfil(){
           <div className={styles.div2}>
               <div className={styles.input2}>
                 <div className={styles.divWrapper}>
-                  <input placeholder="Dia" className={styles.textWrapper3}></input>
+                  <input placeholder="18" className={styles.textWrapper3}></input>
                 </div>
                 <div className={styles.input3}>
-                  <input placeholder="Mês"className={styles.textWrapper4}></input>
+                  <input placeholder="06"className={styles.textWrapper4}></input>
                 </div>
                 <div className={styles.input4}>
-                  <input placeholder="Ano" className={styles.textWrapper3}></input>
+                  <input placeholder="1990" className={styles.textWrapper3}></input>
                 </div>
               </div>
               <div className={styles.textWrapper5}>DATA DE NASCIMENTO*</div>
@@ -29,7 +33,7 @@ export default function Perfil(){
 
             <div className={styles.div}>
               <div className={styles.input}>
-                <input placeholder="Ex:13569-697"className={styles.textWrapper}></input>
+                <input placeholder="13349720"className={styles.textWrapper} ></input>
               </div>
               <div className={styles.textWrapper2}>CEP*</div>
               </div><div>
@@ -44,25 +48,22 @@ export default function Perfil(){
                 <div className={styles.textWrapper2}>EMAIL*</div>
                 <div className={styles.textWrapper6}>Verificar email</div>
               </div>
-              <input className={styles.input5} placeholder="hello@gmail.com" type="email" />
+              <input className={styles.input5} placeholder="bruno.correia987@gmail.com" type="email" />
             </div>
             <div className={styles.div2}>
-              <div className={styles.input6}>
-                <input placeholder="Ex:User4569" className={styles.textWrapper}></input>
-              </div>
-              <div className={styles.textWrapper5}>NOME DE USUARIO*</div>
+    
             </div>
           </div>
           <div className={styles.firstLastName}>
             <div className={styles.div}>
               <div className={styles.input7}>
-                <input placeholder="Ex:Carlos" className={styles.textWrapper}></input>
+                <input placeholder="Correia" className={styles.textWrapper}></input>
               </div>
               <div className={styles.textWrapper5}>SOBRENOME*</div>
             </div>
             <div className={styles.div2}>
               <div className={styles.input8}>
-                <input placeholder="Ex:José" className={styles.textWrapper}></input>
+                <input placeholder="Bruno" className={styles.textWrapper}></input>
               </div>
               <div className={styles.textWrapper5}>NOME*</div>
             </div>
@@ -99,6 +100,7 @@ export default function Perfil(){
         <div className={styles.textWrapper8}>Perfil</div>
       </div>
     </div>
+    <div className={styles.secondBackground}></div>
     
         </>
         

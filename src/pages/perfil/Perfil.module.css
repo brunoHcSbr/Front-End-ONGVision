@@ -1,4 +1,13 @@
-.body {
+.bodyBackground {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 50vh; /* Define a altura da página para ocupar toda a janela */
+  margin: 0;
+  background-color: #f5f7f9;
+  border-radius: 6px;
+}
+.secondBackground{
   display: flex;
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
@@ -192,7 +201,7 @@
   align-items: flex-start;
   display: inline-flex;
   flex-direction: column;
-  left: 460px;
+
   position: absolute;
   top: 0;
 }
@@ -232,7 +241,7 @@
   padding: 12.75px 199px 13.25px 13px;
   position: relative;
   white-space: nowrap;
-  width: 440px;
+  width: 900px;
 }
 
  .input6 {
