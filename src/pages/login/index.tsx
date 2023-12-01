@@ -38,7 +38,7 @@ export default function Login(){
                         <span>Ou use seu email e senha</span>
                         <Input type="email" placeholder="Email"></Input>
                         <Input type="password" placeholder="Senha"></Input>
-                        
+            
                         <ButtonBase label="Login"></ButtonBase>
                     </form>
                 </div>
